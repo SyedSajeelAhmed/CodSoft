@@ -16,21 +16,21 @@
                   <input type="text" name="display">
                 </div>
                 <div class="row">
-                   <input type="button" class="box" value="7" onclick="display.value +='7'">
-                   <input type="button" class="box" value="8" onclick="display.value +='8'">
-                   <input type="button" class="box" value="9" onclick="display.value +='9'">
+                   <input type="button" class="box" value="7" onclick="if(display.value=='0'){display.value ='7'}else{display.value +=7}">
+                   <input type="button" class="box" value="8" onclick="if(display.value=='0'){display.value ='8'}else{display.value +=8}">
+                   <input type="button" class="box" value="9" onclick="if(display.value=='0'){display.value ='9'}else{display.value +=9}">
                    <input type="button" class="box" value="DLT" onclick="display.value = display.value.toString().slice(0,-1)">
                 </div>
                 <div class="row">
-                  <input type="button" class="box" value="4" onclick="display.value +='4'">
-                  <input type="button" class="box" value="5" onclick="display.value +='5'">
-                  <input type="button" class="box" value="6" onclick="display.value +='6'">
+                  <input type="button" class="box" value="4" onclick="if(display.value=='0'){display.value ='4'}else{display.value +=4}">
+                  <input type="button" class="box" value="5" onclick="if(display.value=='0'){display.value ='5'}else{display.value +=5}">
+                  <input type="button" class="box" value="6" onclick="if(display.value=='0'){display.value ='6'}else{display.value +=6}">
                   <input type="button" class="box" value="*" onclick="display.value +='*'">
                 </div>
-                <div class="row">
-                  <input type="button" class="box" value="1" onclick="display.value +='1'">
-                  <input type="button" class="box" value="2" onclick="display.value +='2'">
-                  <input type="button" class="box" value="3" onclick="display.value +='3'">
+                  <div class="row">
+                  <input type="button" class="box" value="1" onclick="if(display.value=='0'){display.value ='1'}else{display.value +=1}">
+                  <input type="button" class="box" value="2" onclick="if(display.value=='0'){display.value ='2'}else{display.value +=2}">
+                  <input type="button" class="box" value="3" onclick="if(display.value=='0'){display.value ='3'}else{display.value +=3}">
                   <input type="button" class="box" value="-" onclick="display.value +='-'">
                 </div>
                 <div class="row">
