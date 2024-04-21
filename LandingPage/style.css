@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;   
+    scroll-behavior: smooth; 
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navigation{
+    width: 100%;
+    height: 70px; 
+    display: flex;
+    justify-content:right;
+    background: linear-gradient(rgba(243, 129, 62, 0.658),rgba(224, 136, 77, 0.719));
+    position: relative;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 50px;
+    align-items: center;
+}
+.nav
+{
+    height: 100%;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content:right; 
+}
+
+.links{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 600;
+}
+.links:hover{
+    background-color: rgba(156, 120, 79, 0.274);
+}
+.first{
+    background-image: url(/LandingPage/images/mainbg2.jpg);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.f1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    text-align: left;
+    color: white;
+    width: 46%;
+}
+.text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.img-container {
+    width: 100%;
+    height: 100%;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.f2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.f2 .f2box{
+    background: linear-gradient(rgba(221, 162, 84, 0.541),rgba(192, 143, 103, 0.651));
+    height: 90%;
+    width: 95%;
+    /* border: 1px solid grey; */
+    text-align: center;
+    overflow: hidden;
+    overflow: auto;
+    
+}
+.circle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px; 
+    flex-wrap: wrap;
+}
+.c{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-size: 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.f3{
+    height: 400px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(221, 162, 84, 0.541),rgba(192, 143, 103, 0.651));
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+
+.f3 .b1{
+    width: 50%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.f3 .b1{
+    width: 50%;
+    height: 95%;
+}
+.f3 .b1 .img{
+    width: 250px;
+    height: 250px;
+    background-image:url(/LandingPage/images/bimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.b2{
+    text-align: center;
+}
+button{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(243, 128, 62);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgb(219, 110, 38);
+    cursor: pointer;
+} 
+button:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: 3px solid rgb(219, 110, 38);
+    background-color: transparent;
+} 
+
+
+.f4box{
+    height: 90%;
+    width: 95%;
+    background: linear-gradient(rgba(221, 162, 84, 0.541),rgba(192, 143, 103, 0.651));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow:auto; 
+}
+
+.cards{
+    height: 250px;
+    width: 200px;
+    background: #fff9f9fd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+    margin: 10px;
+}
+
+.cards .img{
+    background-image: url(/LandingPage/images/icon.png);
+    background-position: center;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 100px;
+    width: 100%;
+    background-size: 80px;
+}
+
+.f5{
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/LandingPage/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.f5i{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(236, 171, 85, 0.747),rgba(221, 168, 108, 0.747));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 8, 6);
+    overflow: auto;
+}
+.f5ii input{
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 0px 20px 20px 0px;
+    margin: 30px 0px 30px 0px;
+}
+.f5ii .i{
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.f5ii
+{
+    height: fit-content;
+    width: 100%;
+}
+
+.btn{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 3px solid orange;
+    color: rgb(255, 255, 255);
+}
+
+.cards button{
+    margin-top: 20px;
+    height: 50px;
+    width: 110px;
+}
+.cards button:hover{
+    color: white ;
+    background-color: rgb(243, 128, 62);
+    border: none;
+    font-weight: 500;
+
+}.footer {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    color: aliceblue;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.footer2 {
+    height: 75%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer2 .three {
+    margin: 20px 20px 20px 20px;
+    text-align: left;
+}
+
+.footer2 p {
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    color: aliceblue;
+    background-color: #131212;
+}
