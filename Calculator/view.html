@@ -34,7 +34,7 @@
                   <input type="button" class="box" value="-" onclick="display.value +='-'">
                 </div>
                 <div class="row">
-                  <input type="button" class="box" value="0" onclick="display.value +='0'">
+                  <input type="button" class="box" value="0" onclick="if(display.value=='0' ){display.value ='0'}else{display.value +=0}">
                   <input type="button" class="box" value="." onclick="display.value +='.'">
                   <input type="button" class="box" value="+" onclick="display.value +='+'">
                   <input type="button" class="box" value="/" onclick="display.value +='/'">

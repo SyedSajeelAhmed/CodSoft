@@ -14,6 +14,13 @@
     <div class="main">
       <div class="first">
         <div class="navigation">
+
+          <div class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          
           <div class="logo">
            <a href="/LandingPage/index.html"><img src="/LandingPage/images/logo.png" height="100px" alt=""></a></div>
           <div class="nav">
@@ -157,4 +164,14 @@
   </div>
 </body>
 
+<script>
+  const toggle = document.getElementsByClassName('toggle-button')[0];
+  const link = document.getElementsByClassName('navigation')[0];
+  const li = document.getElementsByClassName('nav')[0];
+
+  toggle.addEventListener('click', ()=>{
+      link.classList.toggle('active')
+      li.classList.toggle('act')
+  })
+</script>
 </html>

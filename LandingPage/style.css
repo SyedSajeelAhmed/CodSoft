@@ -21,7 +21,7 @@
 .logo{
     width: 20%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     margin-left: 50px;
     align-items: center;
 }
@@ -32,8 +32,8 @@
     display: flex;
     align-items: center;
     justify-content:right; 
-}
 
+}
 .links{
     height: 100%;
     width: 100px;
@@ -42,6 +42,7 @@
     justify-content: center;
 
 }
+
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -328,4 +329,58 @@ button:hover{
     width: 100%;
     color: aliceblue;
     background-color: #131212;
+}
+
+.toggle-button{
+    height: 100%;
+    position: absolute;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toggle-button .bar{
+    height: 4px;
+    width: 30px;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+@media(max-width: 800px) {
+    
+.toggle-button{
+    display: flex;
+    cursor: pointer;
+}    
+.navigation{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}    
+
+.active{
+    height: 400px;
+}
+
+.logo{
+    width: 80%;
+    margin-left: 0;
+    align-items: center;
+}
+
+.nav{
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+}
+
+.act{
+    display: flex;
+}
+.links{
+    width: 100%;
+}
 }
