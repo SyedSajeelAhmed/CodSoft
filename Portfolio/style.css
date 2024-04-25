@@ -113,9 +113,8 @@ main{
     padding: 20px;
 }
 .work{
-    margin: 30px 1px 30px 1px; 
+    margin: 50px; 
     text-align: center;
-    width: 33.1%;
 }   
 .footer{
     width: 100%;
@@ -162,4 +161,13 @@ main{
     .navbar3 img{
         display: none;
     }
+}
+.card{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
 }
