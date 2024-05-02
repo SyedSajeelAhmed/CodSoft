@@ -112,10 +112,6 @@ main{
     text-align: center;
     padding: 20px;
 }
-.work{
-    margin: 50px; 
-    text-align: center;
-}   
 .footer{
     width: 100%;
     margin-top: 30px;
@@ -163,11 +159,18 @@ main{
     }
 }
 .card{
-    width: 90%;
-    height: 400px;
+    width: 85%;
+    height: 656px;
     display: flex;
     align-items:center;
     justify-content: space-around;
     flex-wrap: wrap;
     overflow: auto;
 }
+.bg-white{
+    background-color: white;
+}
+.work{
+    margin: 50px; 
+    text-align: center;
+}   
